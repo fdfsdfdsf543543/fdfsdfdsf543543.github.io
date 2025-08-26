@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting to Target Site</title>
+    <!-- HTML Meta Redirect -->
+    <meta http-equiv="refresh" content="0; URL=https://ваш-целевой-сайт.com/">
+    <!-- Canonical Link to pass link juice -->
+    <link rel="canonical" href="https://ваш-целевой-сайт.com/" />
+    <!-- Optional CSS for a better look -->
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+        }
+        a { 
+            color: #0366d6; 
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Перенаправление...</h1>
+    <p>Вы будете автоматически перенаправлены на целевую страницу.</p>
+    <p>Если ничего не происходит, пожалуйста, перейдите по <a href="https://ваш-целевой-сайт.com/">ссылке</a>.</p>
+    
+    <!-- Дублируем редирект на JavaScript для надежности -->
+    <script>
+        window.location.href = "https://ваш-целевой-сайт.com/";
+    </script>
+</body>
+</html>
